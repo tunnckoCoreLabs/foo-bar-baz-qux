@@ -52,6 +52,11 @@
   },
   "pre-commit": {
     "silent": true,
-    "run": ["deps", "secure", "lint", "test"]
+    "run": [
+      "deps",
+      "secure",
+      "lint",
+      "test"
+    ]
   }
 }
