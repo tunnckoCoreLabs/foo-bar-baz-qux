@@ -15,10 +15,6 @@
     "commit": "npm-run-all --silent -s deps secure lint test git",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tunnckoCore/hela.git"
-  },
   "keywords": [],
   "author": "",
   "license": "MIT",
@@ -58,5 +54,9 @@
       "lint",
       "test"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tunnckoCore/foo-bar-baz-qux.git"
   }
 }
