@@ -24,10 +24,10 @@
   "devDependencies": {
     "dependency-check": "2.9.1",
     "eslint": "4.2.0",
-    "github-post-release": "1.7.1",
     "npm-run-all": "4.0.2",
     "nsp": "2.6.3",
     "nyc": "11.0.3",
+    "pre-commit": "1.2.2",
     "semantic-release": "^6.3.6",
     "simple-commit-message": "3.2.0",
     "standard": "10.0.2"
@@ -44,12 +44,16 @@
     "lines": 0
   },
   "release": {
-    "analyzeCommits": "simple-commit-message",
-    "generateNotes": "github-post-release"
+    "analyzeCommits": "simple-commit-message"
   },
   "pre-commit": {
     "silent": true,
-    "run": ["deps", "secure", "lint", "test"]
+    "run": [
+      "deps",
+      "secure",
+      "lint",
+      "test"
+    ]
   },
   "repository": {
     "type": "git",
