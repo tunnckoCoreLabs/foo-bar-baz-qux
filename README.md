@@ -1,4 +1,7 @@
-# foo-bar-baz-qux [![code coverage][codecov-img]][codecov-url]
+# foo-bar-baz-qux [![linux build status][travis-img]][travis-url]  [![code coverage][codecov-img]][codecov-url]
+
+[travis-url]: https://travis-ci.org/tunnckoCore/foo-bar-baz-qux
+[travis-img]: https://img.shields.io/travis/tunnckoCore/foo-bar-baz-qux/master.svg?label=linux
 
 [codecov-url]: https://codecov.io/gh/tunnckoCore/foo-bar-baz-qux
 [codecov-img]: https://img.shields.io/codecov/c/github/tunnckoCore/foo-bar-baz-qux/master.svg?label=codecov
