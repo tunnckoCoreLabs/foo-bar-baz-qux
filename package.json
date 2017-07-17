@@ -36,9 +36,6 @@
     "node": ">=4",
     "npm": ">=3"
   },
-  "release": {
-    "analyzeCommits": "simple-commit-message"
-  },
   "nyc": {
     "check-coverage": true,
     "statements": 0,
@@ -48,12 +45,7 @@
   },
   "pre-commit": {
     "silent": true,
-    "run": [
-      "deps",
-      "secure",
-      "lint",
-      "test"
-    ]
+    "run": ["deps", "secure", "lint", "test"]
   },
   "repository": {
     "type": "git",
