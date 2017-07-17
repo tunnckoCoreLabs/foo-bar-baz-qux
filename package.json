@@ -8,6 +8,7 @@
     "secure": "nsp check",
     "lint": "eslint --fix ./*.js",
     "test": "nyc --reporter lcov node test.js",
+    "report": "nyc report",
     "git": "npm-run-all --silent -s git:*",
     "git:add": "git add --all",
     "git:cz": "simple-commit-message",
@@ -48,7 +49,7 @@
   },
   "pre-commit": {
     "silent": true,
-    "run": ["deps", "secure", "lint", "test"]
+    "run": ["deps", "secure", "lint", "test", "git"]
   },
   "repository": {
     "type": "git",
