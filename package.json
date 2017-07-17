@@ -49,7 +49,7 @@
   },
   "pre-commit": {
     "silent": true,
-    "run": ["deps", "secure", "lint", "test", "git"]
+    "run": ["deps", "secure", "lint", "test"]
   },
   "repository": {
     "type": "git",
