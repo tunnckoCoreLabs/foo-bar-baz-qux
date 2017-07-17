@@ -25,7 +25,7 @@ before_script:
 
 after_success:
   - nyc report
-  - npm run semantic-release
+  - DEBUG=simple npm run semantic-release
   - bash <(curl -s https://codecov.io/bash)
 
 branches:
