@@ -12,5 +12,6 @@
   ],
   "automerge": "minor",
   "automergeType": "branch-push",
-  "prCreation": "not-pending"
+  "prCreation": "not-pending",
+  "schedule": ["after 10pm and before 5am on every weekday", "every weekend"]
 }
