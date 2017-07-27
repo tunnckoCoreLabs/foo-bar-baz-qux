@@ -20,18 +20,19 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "prettier-eslint": "6.4.2",
-    "standard": "9.0.2"
+    "prettier-eslint": "6.4.2"
   },
   "devDependencies": {
     "dependency-check": "2.9.1",
     "eslint": "4.3.0",
+    "mukla": "0.4.8",
     "npm-run-all": "4.0.2",
     "nsp": "2.7.0",
     "nyc": "11.0.3",
     "pre-commit": "1.2.2",
     "semantic-release": "6.3.6",
-    "simple-commit-message": "3.3.0"
+    "simple-commit-message": "3.3.0",
+    "standard": "9.0.2"
   },
   "engines": {
     "node": ">=4",
