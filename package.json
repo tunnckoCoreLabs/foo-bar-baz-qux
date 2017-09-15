@@ -20,7 +20,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "prettier-eslint": "6.4.3"
+    "prettier-eslint": "8.1.0"
   },
   "devDependencies": {
     "dependency-check": "2.9.1",
